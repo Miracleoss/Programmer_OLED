@@ -1,4 +1,5 @@
 # Programmer_OLED
+## 此readme只作为指引，详细内容在另一分支-master 中
 ## 芯片
 ### stm32f103cbt6/HK32f103cbt6
 ## 开发环境
@@ -10,4 +11,4 @@
 - OLED的芯片是 SSD1306
 - OLED尺寸是0.96英寸
 - 小动画包括：进度条、汉字显示、代码逐行显示
-## 此readme只作为指引，详细内容在另一分支-master 中
+
