@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Miracle 3345634042@qq.com, NEQURM, LIC=14HV2-9YBMP-8TZ3P-MP7JJ-W6ZJW-VRQ2E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\work_stm\keil540\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.44.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Work_stm\stm32cubemax\project\Pro_002\CBT6_OLED\MDK-ARM\CBT6_OLED.uvprojx
+Project File Date:  05/24/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\work_stm\keil540\ARM\ARMCC\Bin'
+Rebuild target 'CBT6_OLED'
+assembling startup_stm32f103xb.s...
+compiling font.c...
+compiling gpio.c...
+compiling main.c...
+../code/oled.h(13): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+../code/oled.h(14): warning:  #1295-D: Deprecated declaration OLED_DisPlay_On - give arg types
+  void OLED_DisPlay_On();
+../code/oled.h(15): warning:  #1295-D: Deprecated declaration OLED_DisPlay_Off - give arg types
+  void OLED_DisPlay_Off();
+../code/oled.h(16): warning:  #1295-D: Deprecated declaration OLED_Test - give arg types
+  void OLED_Test();
+../code/oled.h(18): warning:  #1295-D: Deprecated declaration OLED_NewFrame - give arg types
+  void OLED_NewFrame();
+../code/oled.h(19): warning:  #1295-D: Deprecated declaration OLED_ShowFrame - give arg types
+  void OLED_ShowFrame();
+../Core/Src/main.c: 6 warnings, 0 errors
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_flash.c...
+compiling tim.c...
+compiling animation.c...
+..\code\oled.h(13): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+..\code\oled.h(14): warning:  #1295-D: Deprecated declaration OLED_DisPlay_On - give arg types
+  void OLED_DisPlay_On();
+..\code\oled.h(15): warning:  #1295-D: Deprecated declaration OLED_DisPlay_Off - give arg types
+  void OLED_DisPlay_Off();
+..\code\oled.h(16): warning:  #1295-D: Deprecated declaration OLED_Test - give arg types
+  void OLED_Test();
+..\code\oled.h(18): warning:  #1295-D: Deprecated declaration OLED_NewFrame - give arg types
+  void OLED_NewFrame();
+..\code\oled.h(19): warning:  #1295-D: Deprecated declaration OLED_ShowFrame - give arg types
+  void OLED_ShowFrame();
+..\code\animation.c(214): warning:  #1-D: last line of file ends without a newline
+  // ...existing code...
+..\code\animation.c: 7 warnings, 0 errors
+compiling i2c.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_msp.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling oled.c...
+..\code\oled.h(13): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+..\code\oled.h(14): warning:  #1295-D: Deprecated declaration OLED_DisPlay_On - give arg types
+  void OLED_DisPlay_On();
+..\code\oled.h(15): warning:  #1295-D: Deprecated declaration OLED_DisPlay_Off - give arg types
+  void OLED_DisPlay_Off();
+..\code\oled.h(16): warning:  #1295-D: Deprecated declaration OLED_Test - give arg types
+  void OLED_Test();
+..\code\oled.h(18): warning:  #1295-D: Deprecated declaration OLED_NewFrame - give arg types
+  void OLED_NewFrame();
+..\code\oled.h(19): warning:  #1295-D: Deprecated declaration OLED_ShowFrame - give arg types
+  void OLED_ShowFrame();
+..\code\oled.c: 6 warnings, 0 errors
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling stm32f1xx_hal_tim.c...
+linking...
+Program Size: Code=7908 RO-data=63080 RW-data=336 ZI-data=2944  
+FromELF: creating hex file...
+"CBT6_OLED\CBT6_OLED.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::STM32F1xx_DFP@2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_CBT6_OLED
+  D:/Work_stm/keil540/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Work_stm/keil540/ARM/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
